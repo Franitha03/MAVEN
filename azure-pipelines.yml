@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: Test
+pool: demo
   
 
 steps:
@@ -20,4 +20,4 @@ steps:
     mavenVersionOption: Default
     mavenAuthenticateFeed: false
     effectivePomSkip: false
-    sonarQubeRunAnalysis: 
+    sonarQubeRunAnalysis: false
